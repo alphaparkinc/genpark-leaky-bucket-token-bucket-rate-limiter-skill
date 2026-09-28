@@ -1,0 +1,6 @@
+# Smithery configuration for genpark-leaky-bucket-token-bucket-rate-limiter-skill
+service:
+  name: genpark-leaky-bucket-token-bucket-rate-limiter-skill
+  command: python
+  args:
+    - mcp_server.py
